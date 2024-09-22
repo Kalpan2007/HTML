@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 65vh;
+        }
+        .calc{
+            background-color: #1c1c1c;
+            width: 320px;
+            border: 2 px;
+            border-radius: 40px;
+        }
+        .dnum{
+            color: white;
+            font-size: 4rem;
+            text-align: right;
+            padding-top: 30px;
+            padding-right: 15px;
+        }
+        .frow{
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+        }
+        .ele{
+            border: 0px solid  ;
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            align-content: center;
+            margin-top: 10px;
+        }    
+        .grey{
+            background-color: #a2a2a2;
+        }
+        .dgey{
+            background-color: #505050;
+        }
+        .yellow{
+            background-color: #ff9501;
+        }
+    </style>
+</head>
+<body>
+    <div class="calc">
+        <div class="dnum">7744</div>
+        <div class="frow">
+            <div class="ele grey">C</div>
+            <div class="ele grey">+/-</div>
+            <div class="ele grey">%</div>
+            <div class="ele yellow">÷</div>
+        </div>
+        <div class="frow">
+            <div class="ele dgey">7</div>
+            <div class="ele dgey">8</div>
+            <div class="ele dgey">9</div>
+            <div class="ele yellow">*</div>
+        </div>
+        <div class="frow">
+            <div class="ele dgey">4</div>
+            <div class="ele dgey">5</div>
+            <div class="ele dgey">6</div>
+            <div class="ele yellow">-</div>
+        </div>
+        <div class="frow">
+            <div class="ele dgey">1</div>
+            <div class="ele dgey">2</div>
+            <div class="ele dgey">3</div>
+            <div class="ele yellow">/</div>
+        </div> 
+        <div class="frow">
+            <div class="ele dgey" style="padding-right: 70px;">0</div>
+            <div class="ele dgey">,</div>
+            <div class="ele yellow">=</div>
+        </div>
+
+    </div>
+</body>
+</html>

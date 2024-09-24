@@ -1,0 +1,32 @@
+.white {
+    height: 27.5px;
+    width: 27.5px;
+    background-color: white;
+    border: 1px solid #ababab
+}
+
+.green {
+    height: 27.5px;
+    width: 27.5px;
+    background-color: #a9d8b7;
+    border: 0.5px solid #ababab
+}
+
+.suduko_3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 29px);
+    grid-template-rows: repeat(3, 29px);
+    border: 1px solid black;
+}
+
+.sudoku {
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    grid-template-rows: repeat(3, 90px);
+}
+
+.full {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

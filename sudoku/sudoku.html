@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <style>
+        .final{
+            display: flex;
+           
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20%;
+        }
+
+        .main1 {
+            display: flex;
+        }
+
+        .bigbox {
+            display: flex;
+        }
+
+        .ele {
+            border: 1px solid #a3a3a3;
+            height: 4vh;
+            width: 2vw;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .color {
+            background-color: #a9d8b8;
+        }
+
+        .text {
+            margin-left: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="final">
+        <div class="main">
+            <div class="text">SUDOKU</div>
+            <div class="main1">
+
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">8</div>
+                        <div class="ele"></div>
+                        <div class="ele">6</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">4</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">6</div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele">8</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">1</div>
+                        <div class="ele">7</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">3</div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">9</div>
+                        <div class="ele">6</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">8</div>
+                        <div class="ele">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main1">
+
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele">1</div>
+                        <div class="ele"></div>
+                        <div class="ele">7</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">3</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">8</div>
+                        <div class="ele"></div>
+                        <div class="ele">5</div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">1</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele">3</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">5</div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele">9</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">2</div>
+                        <div class="ele">5</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main1">
+
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">6</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">2</div>
+                        <div class="ele"></div>
+                        <div class="ele">8</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">1</div>
+                        <div class="ele"></div>
+                        <div class="ele">7</div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele">6</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">2</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">7</div>
+                        <div class="ele"></div>
+                        <div class="ele">4</div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele">8</div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">4</div>
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                    </div>
+                    <div class="first">
+                        <div class="ele"></div>
+                        <div class="ele"></div>
+                        <div class="ele">3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="text">ANSWER</div>
+            <div class="main1">
+
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">8</div>
+                        <div class="ele">5</div>
+                        <div class="ele">6</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">7</div>
+                        <div class="ele">4</div>
+                        <div class="ele">1</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">6</div>
+                        <div class="ele">3</div>
+                        <div class="ele">9</div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele">5</div>
+                        <div class="ele">2</div>
+                        <div class="ele">8</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">4</div>
+                        <div class="ele">1</div>
+                        <div class="ele">7</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">3</div>
+                        <div class="ele">9</div>
+                        <div class="ele">6</div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">1</div>
+                        <div class="ele">7</div>
+                        <div class="ele">4</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">9</div>
+                        <div class="ele">6</div>
+                        <div class="ele">3</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">2</div>
+                        <div class="ele">8</div>
+                        <div class="ele">5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main1">
+
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele">1</div>
+                        <div class="ele">4</div>
+                        <div class="ele">7</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">9</div>
+                        <div class="ele">3</div>
+                        <div class="ele">6</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">8</div>
+                        <div class="ele">2</div>
+                        <div class="ele">5</div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">7</div>
+                        <div class="ele">1</div>
+                        <div class="ele">4</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">6</div>
+                        <div class="ele">9</div>
+                        <div class="ele">3</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">5</div>
+                        <div class="ele">8</div>
+                        <div class="ele">2</div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele">3</div>
+                        <div class="ele">6</div>
+                        <div class="ele">9</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">2</div>
+                        <div class="ele">5</div>
+                        <div class="ele">8</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">4</div>
+                        <div class="ele">7</div>
+                        <div class="ele">1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main1">
+
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">3</div>
+                        <div class="ele">6</div>
+                        <div class="ele">9</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">2</div>
+                        <div class="ele">5</div>
+                        <div class="ele">8</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">1</div>
+                        <div class="ele">4</div>
+                        <div class="ele">7</div>
+                    </div>
+                </div>
+                <div class="bigbox color">
+                    <div class="first">
+                        <div class="ele">9</div>
+                        <div class="ele">3</div>
+                        <div class="ele">6</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">8</div>
+                        <div class="ele">2</div>
+                        <div class="ele">5</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">7</div>
+                        <div class="ele">1</div>
+                        <div class="ele">4</div>
+                    </div>
+                </div>
+                <div class="bigbox">
+                    <div class="first">
+                        <div class="ele">5</div>
+                        <div class="ele">8</div>
+                        <div class="ele">2</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">4</div>
+                        <div class="ele">7</div>
+                        <div class="ele">1</div>
+                    </div>
+                    <div class="first">
+                        <div class="ele">6</div>
+                        <div class="ele">9</div>
+                        <div class="ele">3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

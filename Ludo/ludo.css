@@ -1,0 +1,114 @@
+.box {
+    width: 135px;
+    height: 135px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  
+}
+      .box1 {
+    width: 135px;
+    height: 135px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+ 
+}
+      .box2 {
+    width: 135px;
+    height: 135px;
+    background-color: rgb(41, 8, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+      .box3 {
+    width: 135px;
+    height: 135px;
+    background-color: rgb(243, 255, 8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+height: 23px;
+width: 22px;
+background-color: white;
+border: 2px solid black;
+}
+.square1{
+height: 23px;
+width: 22px;
+background-color: green;
+border: 2px solid black;
+}
+.square2{
+height: 23px;
+width: 22px;
+background-color: rgb(93, 0, 255);
+border: 2px solid black;
+}
+.square3{
+height: 23px;
+width: 22px;
+background-color: rgb(255, 0, 0);
+border: 2px solid black;
+}
+.square4{
+height: 22px;
+width: 22px;
+background-color: rgb(251, 255, 0);
+border: 2px solid black;
+}
+.abc{
+display:flex;
+}
+#line2{
+display: flex;
+}
+#cd{
+display: flex;
+}
+.line1{
+display:flex;
+}
+.line3{
+display: flex;
+}
+
+.home{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.red{
+    width: 0;
+    height: 0;
+    border-top: green solid 41px;
+    border-bottom: blue solid 41px;
+    border-left: red solid 41px;
+    border-right: yellow solid 41px;
+
+}

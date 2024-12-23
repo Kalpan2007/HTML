@@ -16,14 +16,11 @@ This repository contains clones of various web applications and platforms, inclu
 
 These projects are built purely with HTML and CSS, focusing on frontend design and layout.
 
-## Features
-- Responsive and visually accurate clones
-- Multiple applications in one repository
 
 ## Usage
 Open the HTML files in your browser to view and interact with the UI clones.
 
 ## Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 
